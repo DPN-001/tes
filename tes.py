@@ -39,7 +39,7 @@ def Autoclicker(proxy1):
 						('Referer', random.choice(referer))]
 	urllib2.install_opener(opener)
 	f = urllib2.urlopen(link_invation)
-	if "Cash111.com" in f.read():
+	if "s.lazada.co.id" in f.read():
 	   print "[*] Link invation was clicked..."
 	else:
 	   print "[*] Link invation not clicked !"
