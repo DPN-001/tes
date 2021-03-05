@@ -27,7 +27,7 @@ useragent = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
 		'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']
 
 referer	= ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com']
-link_invation= 'https://s.lazada.co.id/s.dVvuh'
+link_invation= 'https://1bm.top/HeX29'
 
 def Autoclicker(proxy1):
     try:
@@ -39,7 +39,7 @@ def Autoclicker(proxy1):
 						('Referer', random.choice(referer))]
 	urllib2.install_opener(opener)
 	f = urllib2.urlopen(link_invation)
-	if "s.lazada.co.id" in f.read():
+	if "1bm.top" in f.read():
 	   print "[*] Link invation was clicked..."
 	else:
 	   print "[*] Link invation not clicked !"
